@@ -1,0 +1,17 @@
+# ce sont les paramètres par defaut, en fonction de comment est configurer le projet certains ne sont pas utiles 
+# <- est utilisé pour commenter 
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Je rajoute le Rproj
+.Rproj
+# ici ce sont deux exemples de dossiers que je ne garde par pas dans git ni n'envoie à distance
+# si on code les pwd/login/ports pour se connecter à une DB c'est aussi bien de les mettre dans 
+# .gitignore par exemple : code.R
+# ignore de ce qui est dans le repertoire data 
+/data
+# igmore de visualisation/images
+/visualisation
+# si je mets des pdf comme des publi dans le meme dossier je rajoute souvent 
+# *.pdf
